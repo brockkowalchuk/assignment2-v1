@@ -22,7 +22,7 @@ api = tweepy.API(auth_handler=auth,wait_on_rate_limit=True,wait_on_rate_limit_no
 
 #AMZN AWS Access Requirements
 from boto.s3.connection import S3Connection
-conn = S3Connection('AKIAJYOUW2QZYONFLJ3Q' , '8lcFzfZ/txHG42OO6ucoltqLVAWYpFhxpHWOP8cf')
+conn = S3Connection('BBIAJYOUW2QZYONFLJ3Q' , 'baddzfZ/txHG42OOaucoltqLVAWYpFhxpHWOP8cf')
 conn = S3Connection()
 
 from boto.s3.key import Key
